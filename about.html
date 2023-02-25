@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="about me">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+    <title>About Me in Bootstrap</title>
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Ian Ambay</a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#aboutme" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experiences" class="nav-link">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#achievements" class="nav-link">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section id="aboutme" class="bg-dark text-light p-5 text-center">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div>
+                    <h1> Hello! I am <span class="text-primary" >Ian Ambay </span></h1>
+                        <p class="lead my-4 p-3">
+                        I am currently learning to become a Web and Software Developer.
+                        I am currently learning to build websites using HTML and 
+                            <span class="text-info">
+                                CSS with Bootstrap
+                            </span>.
+                        <br><br>
+                        I am a fun-loving and adventurous person who is always up for trying new things! 
+                        I have a great sense of humor and love to make people laugh. 
+                        In my free time, you can find me exploring the great outdoors, 
+                        trying new foods, and explore new places. 
+                        Overall, I am a spontaneous, outgoing and curious person who is always up for a good time.
+                    </p>
+                    <button class="btn btn-primary btn-lg my-3">Know More</button>
+                </div>
+                <img id="profile-pic" class="img-fluid wd-50 d-md-block rounded" src="./img/man.jpg" alt="man">
+            </div>
+        </div>
+    </section> <!-- End of Hero Section-->
